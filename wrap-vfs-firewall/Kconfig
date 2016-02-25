@@ -1,0 +1,6 @@
+config AM_FS
+	tristate "Amfs stackable file system (EXPERIMENTAL)"
+	help
+	  AMfs is a stackable file system which simply passes its
+	  operations to the lower layer.  It is designed to realize anti-virus-like behavior for file system.
+	  

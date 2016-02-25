@@ -1,0 +1,9 @@
+--checksum -i test1.txt -o o_check.txt -a sha1 -p 1
+--concat -i test1.txt test2.txt -o o_conc.txt -p 1
+--compress -z -i test1.txt -o o_zip.txt -p 1
+--compress -x -i o_zip.txt -o o_unzip.txt -p 1
+--crypt -e -i test1.txt -a aes -o o_encrp1.txt -p 1 -k 1
+--crypt -d -i o_encrp1.txt -a aes -o o_decrp1.txt -p 1 -k 1
+--l
+--crypt -e -i
+--checksum -i test1.txt

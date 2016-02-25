@@ -1,0 +1,8 @@
+The use of the EICAR test string
+ can be more versatile than straightforward
+detection:
+ a file containing the EICAR test string can be compressed or
+archived
+, and then the antivirus software can be run to see whether it can
+detect the test string in the compressed file.
+

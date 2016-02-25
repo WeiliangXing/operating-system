@@ -1,0 +1,5 @@
+this is a badfile
+chmod 777 badScript.sh
+echo "bad" >> me.exe
+Can you find me?
+good luck!
