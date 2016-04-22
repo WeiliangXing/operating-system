@@ -1,7 +1,5 @@
-#This is the operating project to build an asynchronized module .
-
 ###Abstraction
-The project implements producer-consumer model to handle I/O heavy operations 
+This is the operating project to build an asynchronized module. The project implements producer-consumer model to handle I/O heavy operations 
 
 ###Asynchronize mechanism
 When receiving a call from the client, our implemented system call in the kernel first validates the arguments which includes testing for null pointers to avoid future null dereferencing in the kernel. Then it needs to copy data to a producer.
