@@ -23,5 +23,5 @@ To maintain consumer state we use an array of flags called consumers_state. When
 - utils.c  : General utilities and messaging functions (initialize pipe, send info, error, etc.) 
 - utils.h : declarations for utilities
 
-### NOTE;
+### NOTE
 Other files are mainly about feature implementation. key files list above are key parts of producer-consumer implementation.
