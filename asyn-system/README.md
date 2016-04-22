@@ -17,8 +17,11 @@ There are 2 situations when we need to know if a consumer is running or no:
 To maintain consumer state we use an array of flags called consumers_state. When creating each of consumer threads, we pass the address of each item so that consumer could reliably report about their status. Since this array gets accessed and modified from different threads (main kernel thread, producer, consumers) it’s protected by q_mtx mutex.
 
 ### Key files
-
+sys_submitjob.c : puts the job in proper place for processing
 thread.c : Producer and consumer thread routines; thread management
 thread.h : file with thread function declarations
 utils.c  : General utilities and messaging functions (initialize pipe, send info, error, etc.) 
 utils.h : declarations for utilities
+
+### NOTE;
+1. Rest files are mainly about feature implementation. key files list above are key parts of producer-consumer implementation.
