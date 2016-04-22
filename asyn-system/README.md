@@ -15,9 +15,9 @@ To maintain consumer state we use an array of flags called consumers_state. When
 
 ### Key Files
 - sys_submitjob.c : puts the job in proper place for processing
-- thread.c : Producer and consumer thread routines; thread management
+- thread.c : producer and consumer thread routines; thread management
 - thread.h : file with thread function declarations
-- utils.c  : General utilities and messaging functions (initialize pipe, send info, error, etc.) 
+- utils.c  : general utilities and messaging functions (initialize pipe, send info, error, etc.) 
 - utils.h : declarations for utilities
 
 ### NOTE
